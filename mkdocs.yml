@@ -1,0 +1,6 @@
+site_name: Marastoni_Francesco
+
+nav:
+    - 'MD': 'index.md'
+theme:
+    name: readthedocs
