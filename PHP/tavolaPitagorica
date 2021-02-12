@@ -1,0 +1,17 @@
+<h1>Tabella con PHP</h1>
+ 
+<table border="1">
+ 
+<?php
+    for($i=1; $i <= 10; $i++)
+    {
+        echo '<tr>';
+        for($j=1; $j <= 20; $j++)
+        {
+            echo '<td align="right">' . ($i*$j) . '</td>';
+        }
+        echo '</tr>';
+    }
+?>
+ 
+</table>
